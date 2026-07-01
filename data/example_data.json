@@ -1,0 +1,49 @@
+{
+  "examples": [
+    {
+      "name": "Нормальная работа",
+      "device_type": "oscilloscope",
+      "voltage": 230,
+      "current": 5.5,
+      "resistance": 41.8,
+      "frequency": 50,
+      "temperature": 35
+    },
+    {
+      "name": "Низкое напряжение",
+      "device_type": "multimeter",
+      "voltage": 180,
+      "current": 8.2,
+      "resistance": 25.6,
+      "frequency": 50,
+      "temperature": 42
+    },
+    {
+      "name": "Перегрузка тока",
+      "device_type": "clamp_meter",
+      "voltage": 235,
+      "current": 18.5,
+      "resistance": 12.7,
+      "frequency": 50,
+      "temperature": 65
+    },
+    {
+      "name": "Короткое замыкание",
+      "device_type": "scanner",
+      "voltage": 120,
+      "current": 25.0,
+      "resistance": 0,
+      "frequency": 45,
+      "temperature": 85
+    },
+    {
+      "name": "Перегрев",
+      "device_type": "power_analyzer",
+      "voltage": 240,
+      "current": 12.0,
+      "resistance": 20,
+      "frequency": 50,
+      "temperature": 78
+    }
+  ]
+}
